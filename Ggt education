@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GGT Education Center</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.4);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            width: 250px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0,0,0,0.5);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GGT Education Center</h1>
+    <p>Gyan Ganga Tutorial - Learn | Grow | Succeed</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Teachers</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Class 5-10</h2>
+        <p>All subjects basic to advanced learning</p>
+    </div>
+
+    <div class="card">
+        <h2>Class 11-12</h2>
+        <p>Science, Arts & Commerce coaching</p>
+    </div>
+
+    <div class="card">
+        <h2>Competitive Exams</h2>
+        <p>SSC, Railway, Police preparation</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 GGT Education Center | All Rights Reserved
+</footer>
+
+</body>
+</html>
